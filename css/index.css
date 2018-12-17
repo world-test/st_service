@@ -7,10 +7,11 @@
 body {
     max-width: 980px;
     margin: auto;
+        background: linear-gradient(#606060, #fff);
 }
 
 header {
-	background-color: #D3D3D3;
+	background-color: #fff;
 }
 
 #logo {
@@ -34,10 +35,7 @@ header {
 	vertical-align: 6px;
 }
 nav ul.menu {
-
     display: flex;
-
-
     margin-bottom: 0;
     justify-content: space-around;
 }
@@ -61,27 +59,28 @@ nav ul.menu li a {
 nav ul.menu li a:hover {
     text-decoration: underline;
 }
+h2 {
+	text-align: center;
+}
 
 .button {
-    background-color: #4CAF50; /* Green */
+    background-color: #4CAF50; 
     border: none;
     color: white;
-    padding: 2px 80px;
+    padding: 2px 60px;
     text-align: center;
     text-decoration: none;
     display: inline-block;
-    font-size: 16px;
+    font-size: large;
     margin: 4px 2px;
-    -webkit-transition-duration: 0.4s; /* Safari */
     transition-duration: 0.4s;
     cursor: pointer;
-    background-color: white; 
     color: black; 
-    border: 2px solid  #D3D3D3;
+    border: 2px solid  #04d600;
 }
 
 .button:hover {
-    background-color:  #D3D3D3;
+    background-color:  #04d600;
     color: white;
 }
 
@@ -132,7 +131,6 @@ footer .info {
     justify-content: space-around;
     flex-wrap: wrap;
     font-size: 14px;
-    background-color: #b7b7b8;
 }
 
 .copirate {
