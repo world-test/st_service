@@ -4,124 +4,16 @@
     font-family: 'Work Sans', sans-serif;
 }
 
+
 body {
-    max-width: 980px;
-    margin: auto;
         background: linear-gradient(#606060, #fff);
 }
-
-header {
-	background-color: #fff;
-}
-
-#logo {
-    margin: 0;
-}
-
-#logo a img {
-    width: 40px;
-}
-
-#logo a {
-	margin-left: 0px;
-	font-weight: bold;
-	text-decoration: none;
-	font-size: 35px;
-	text-shadow: 0 1px 0 white;
-	color: #373e47;
-}
-
-#logo a span {
-	vertical-align: 6px;
-}
-nav ul.menu {
-    display: flex;
-    margin-bottom: 0;
-    justify-content: space-around;
-}
-header nav, header div {
-	display: flex;
-	margin-left: 6%;
-	
-}
-nav ul.menu li {
-    list-style: none;
-}
-
-nav ul.menu li a {
-    text-decoration: none;
-    color: black;
-    font-size: 1.2rem;
-    padding: 0 0 0 50%;
-}
-
-
-nav ul.menu li a:hover {
-    text-decoration: underline;
-}
-h2 {
-	text-align: center;
-}
-
-.button {
-    background-color: #4CAF50; 
-    border: none;
-    color: white;
-    padding: 2px 60px;
+#products{
     text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: large;
-    margin: 4px 2px;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    color: black; 
-    border: 2px solid  #04d600;
 }
 
-.button:hover {
-    background-color:  #04d600;
-    color: white;
-}
-
-.product-card {
-    padding: 25px;
-}
-.product-card img {
-    display: block;
-    width: 100%;
-}
-
-.product-card .button-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-}
-
-@media (min-width: 400px) {
-    .product-list {
-        display: grid;
-        grid-gap: 5px;
-        grid-template-columns: 1fr 1fr;
-    }
-   //** header nav, header div {
-		display: block;
-    	}
-    nav ul.menu {
-		    display: block;
-    		margin-bottom: 0;
-    	justify-content: space-around;
-}**//
-}
-
-@media (min-width: 600px) {
-    .product-list {
-        grid-template-columns: 1fr 1fr 1fr;
-    }
-}
-
- footer div#logo {
-    text-align: center;
+a {
+    color: rgba(0,0,0,.9);
 }
 
 footer .info {

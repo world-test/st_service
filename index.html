@@ -5,99 +5,147 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="shortcut icon" type="image/png" href="img/favicon.png">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
     <link rel="stylesheet" href="css/index.css">
     <title>Store Service</title>
 </head>
 
 <body>
-    <header>
-        <nav>
-            <div id="logo">
-                <a href="index.html"><img src="img/apple.png" alt="Apple"><span>Store Service</span></a>
+    <div class="container">
+        <header>
+            <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+                <a class="navbar-brand" href="index.html">Store Service</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav justify-content-center mr-auto">
+                        <li class="nav-item active">
+                            <a class="nav-link" href="#devices">Техніка <span class="sr-only">(current)</span></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#service">Сервіс</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link smooth" href="#contact">Контакти</a>
+                        </li>
+                    </ul>
+                    <p>
+                        <button type="button" class="btn btn-success"><a href="#cart">Корзина</a></button>
+                        
+                    </p>
+                </div>
+            </nav>
+        </header>
+        <main>
+            <h2 id="products">Наші товари</h2>
+            <div class="products-container row">
+
+                <article class="card col-12 col-sm-6 col-md-4 ">
+                    <img src="img/ac1.jpg" class="card-img-top" alt="USB car charger">
+                    <div class="card-body">
+                        <h5 class="card-title">USB car charger</h5>
+                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#productInfo">Детальніше</a>
+                        <a href="#" class="btn btn-success">Замовити</a>
+                    </div>
+                </article>
+
+                <article class="card col-12 col-sm-6 col-md-4 ">
+                    <img src="img/ac2.jpg" class="card-img-top" alt="Plug freely Cable">
+                    <div class="card-body">
+                        <h5 class="card-title">Plug freely Cable</h5>
+                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#productInfo">Детальніше</a>
+                        <a href="#" class="btn btn-success">Замовити</a>
+                    </div>
+                </article>
+
+                <article class="card col-12 col-sm-6 col-md-4 ">
+                    <img src="img/ac3.jpg" class="card-img-top" alt="AirPods">
+                    <div class="card-body">
+                        <h5 class="card-title">AirPodsr</h5>
+                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#productInfo">Детальніше</a>
+                        <a href="#" class="btn btn-success">Замовити</a>
+                    </div>
+                </article>
+
+                <article class="card col-12 col-sm-6 col-md-4 ">
+                    <img src="img/ac4.jpg" class="card-img-top" alt="Case for iPhone X">
+                    <div class="card-body">
+                        <h5 class="card-title">Case for iPhone Xr</h5>
+                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#productInfo">Детальніше</a>
+                        <a href="#" class="btn btn-success">Замовити</a>
+                    </div>
+                </article>
+
+                <article class="card col-12 col-sm-6 col-md-4 ">
+                    <img src="img/ac5.jpg" class="card-img-top" alt="Ремінець для Apple Watch">
+                    <div class="card-body">
+                        <h5 class="card-title">Ремінець для Apple Watch</h5>
+                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#productInfo">Детальніше</a>
+                        <a href="#" class="btn btn-success">Замовити</a>
+                    </div>
+                </article>
+
+                <article class="card col-12 col-sm-6 col-md-4 ">
+                    <img src="img/ac6.jpg" class="card-img-top" alt="Smart case для iPad ">
+                    <div class="card-body">
+                        <h5 class="card-title">Стильний Smart case для iPad </h5>
+                        <a href="#" class="btn btn-secondary" data-toggle="modal" data-target="#productInfo">Детальніше</a>
+                        <a href="#" class="btn btn-success">Замовити</a>
+                    </div>
+                </article>
+
             </div>
-            <div id="mainmenu">
-                <ul class="menu">
-                    <li><a href="#accessory.html">Аксесуари</a></li>
-                    <li><a href="#service.html">Ремонт</a></li>
-                    <li><a href="#contact">Контакти</a></li>
-                </ul>
+        </main>
+        <footer>
+            <div class="footer">
+                <div class="info">
+                    <div id="contact">
+                        <br> Наші контакти:
+                        <br> 063 23 02 777📞<br> 063 21 60 651📞
+                    </div>
+                    <div class="contact">
+                        <br>Графік роботи: <br>09:00-18:00
+                        <br>Адреса
+                        <br> м.Стрий,вул.Богдана Хмельницького 28/1
+                    </div>
+                </div>
+                <div class="copirate">© Protected bu Pavlo Buhriy
+                </div>
             </div>
-        </nav>
-    </header>
-    <main>
-        <h2>Товари</h2>
-        <div class="product-list">
-            <article class="product-card">
-                <img src="img/ac1.jpg" alt="">
-                <h3>USB car charger</h3>
-                <p>Необхідна річ у вашому автомобілі Smart USB car charger</p>
-                <div class="button-container">
-                    <button class="button">Додати в корзину</button>
-                </div>
-            </article>
-            <article class="product-card">
-                <img src="img/ac2.jpg" alt="">
-                <h3>Plug freely Cable</h3>
-                <p>Щоб ти завжди був на зв‘язку</p>
-                <div class="button-container">
-                    <button class="button">Додати в корзину</button>
-                </div>
-            </article>
-            <article class="product-card">
-                <img src="img/ac3.jpg" alt="">
-                <h3>AirPods</h3>
-                <p>Якісний звук дуже важливий при прослуховуванні улюблених композицій. 
-                У нас ви можете придбати навушники, які відповідають цьому 
-                критерію <br>- мінімалізм у вигляді<br>- зручність у використанні<br>- якісний звук</p>
-                <div class="button-container">
-                    <button class="button">Додати в корзину</button>
-                </div>
-            </article>
-                        <article class="product-card">
-                <img src="img/ac4.jpg" alt="">
-                <h3>Case for iPhone X </h3>
-                <p>Cтильний <br>Захищає від подряпин </p>
-                <div class="button-container">
-                    <button class="button">Додати в корзину</button>
-                </div>
-            </article>
-                        <article class="product-card">
-                <img src="img/ac5.jpg" alt="">
-                <h3>Ремішок для Apple Watch</h3>
-                <p>Твій Apple Watch буде виглядати по-новому разом із нашим ремінцем.</p>
-                <div class="button-container">
-                    <button class="button">Додати в корзину</button>
-                </div>
-            </article>
-                        <article class="product-card">
-                <img src="img/ac6.jpg" alt="">
-                <h3>Стильний Smart case для iPad </h3>
-                <p>Захищає ваш гаджет
-                   <br>Приємний на дотик
-                   <br>В середині мікрофібра</p>
-                <div class="button-container">
-                    <button class="button">Додати в корзину</button>
-                </div>
-            </article>
+        </footer>
+    </div>
+    
+
+    <div class="modal fade" id="productInfo" tabindex="-1" role="dialog" aria-labelledby="productInfoTitle" aria-hidden="true">
+      <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h5 class="modal-title" id="productInfoTitle">Детальніше про товар</h5>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+              <span aria-hidden="true">&times;</span>
+            </button>
+          </div>
+          
+          <div class="modal-body">
+            <img src="img/ac1.jpg" class="card-img-top" alt="USB car charger">
+                    <div class="card-body">
+                        <h5 class="card-title">USB car charger</h5>
+                        <p class="card-text">Необхідна річ у вашому автомобілі Smart USB car charger</p>
+          </div>
+          
+          <div class="modal-footer">
+            <button type="button" class="btn btn-secondary" data-dismiss="modal">Закрити</button>
+            <button type="button" class="btn btn-success">До корзини</button>
+          </div>
         </div>
-    </main>
-    <footer>
-        <div class="container">
-            <div class="info">
-            <div id="contact">
-                <br> Наші контакти:
-                <br> 063 23 02 777📞<br> 063 21 60 651📞
-            </div>
-            <div class="contact">
-                <br>Графік роботи: <br>09:00-18:00
-                <br>Адреса
-                <br> м.Стрий,вул.Богдана Хмельницького 28/1
-            </div>
-            </div>
-            <div class="copirate">© Protected bu Pavlo Buhriy
-            </div>
-        </div>
-    </footer>
+      </div>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+    <script src="js/smooth-scroll.js"></script>
 </body>
 
 </html>
