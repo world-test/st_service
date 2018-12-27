@@ -64,15 +64,17 @@
             <div class="row products-container">
             </div>
         </section>
-        <form class="formQuestion">
+        <form class="formQuestion" method="POST" action="https://formspree.io/pavlo110502@gmail.com">
             <div class="form-group">
                 <h5 id="questoin">З'явилося питання? Задайте його нам!</h5>
                 <label for="form">Введіть ваш e-mail</label>
-                <input type="email" class="form-control" id="form" placeholder="name@example.com">
+                <input type="email" class="form-control" id="form" placeholder="Ваш email" name="E-mail" required>
             </div>
             <div class="form-group">
-                <label for="FormTextarea">Ваше запитання</label>
-                <textarea class="form-control" id="FormTextarea" rows="3"></textarea>
+                <label for="FormTextarea">Введіть ваше запитання</label>
+                
+                
+                <input type="text" class="form-control" id="FormTextarea" placeholder="Ваше запитання" name="Запитання" required>
             </div>
             <div class="form-group form-check">
                 <input type="checkbox" class="form-check-input" id="Check">
