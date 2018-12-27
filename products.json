@@ -1,0 +1,44 @@
+[
+    {
+        "id": "1",
+        "title": "USB car charger",
+        "image": "ac1.jpg",
+        "description": "Необхідна річ у вашому автомобілі Smart USB car charger.",
+        "price": 499.99
+    },
+    {
+        "id": "2",
+        "title": "Plug freely Cable",
+        "image": "ac2.jpg",
+        "description": "Щоб ти завжди був на зв‘язку.",
+        "price": 199.99
+    },
+    {
+        "id": "3",
+        "title": "AirPods",
+        "image": "ac3.jpg",
+        "description": "Якісний звук дуже важливий при прослуховуванні улюблених композицій.",
+        "price": 249.99
+    },
+    {
+        "id": "4",
+        "title": "Case for iPhone X",
+        "image": "ac4.jpg",
+        "description": "Cтильний,захищає від подряпин.",
+        "price": 229.99
+    },
+    {
+        "id": "5",
+        "title": "Ремінець для Apple Watch",
+        "image": "ac5.jpg",
+        "description": "Твій Apple Watch буде виглядати по-новому разом із нашим ремінцем.",
+        "price": 729.99
+    },
+    {
+        "id": "6",
+        "title": "Стильний Smart case для iPad.",
+        "image": "ac6.jpg",
+        "description": "Захищає ваш гаджет, Приємний на дотик.",
+        "price": 829.99
+    }
+]

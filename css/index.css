@@ -4,24 +4,32 @@
     font-family: 'Work Sans', sans-serif;
 }
 
-
-body {
-        background: linear-gradient(#606060, #fff);
+#products {
+    text-align: center;
+    margin-top: 2%;
 }
-#products{
+
+h5 {
     text-align: center;
 }
 
 a {
-    color: rgba(0,0,0,.9);
+    color: rgba(0, 0, 0, .9);
 }
 
+form.formQuestion {
+    margin-top: 5%;
+    margin-block-end: 3%;
+}
+
+footer{
+    background-color: #e6e6e6;
+}
 footer .info {
     display: flex;
     padding: 25px;
     width: 100%;
     justify-content: space-around;
-    flex-wrap: wrap;
     font-size: 14px;
 }
 
